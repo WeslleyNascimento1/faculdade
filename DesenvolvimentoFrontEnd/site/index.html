@@ -9,6 +9,7 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css" />
     <title>Viagem dos sonhos</title>
   </head>
@@ -60,6 +61,9 @@
                   </li>
                 </ul>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="bi bi-cart"></i></a>
+              </li>
             </ul>
           </div>
         </div>
@@ -89,29 +93,51 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="img/caroussel/montanha.jpg" class="d-block w-100" alt="..." />
+            <img
+              src="img/caroussel/montanha.jpg"
+              class="d-block w-100"
+              alt="Paisagem de montanhas com neve"
+            />
             <div class="carousel-caption d-none d-md-block">
               <h5>Montanha</h5>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, in! Deleniti labore molestiae rerum aliquam dignissimos at quae ducimus animi quo accusantium mollitia laudantium cumque id quibusdam suscipit, nulla error.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Corporis, in! Deleniti labore molestiae rerum aliquam
+                dignissimos at quae ducimus animi quo accusantium mollitia
+                laudantium cumque id quibusdam suscipit, nulla error.
               </p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="img/caroussel/praia.jpg" class="d-block w-100" alt="..." />
+            <img
+              src="img/caroussel/praia.jpg"
+              class="d-block w-100"
+              alt="Praia paradisíaca com mar azul"
+            />
             <div class="carousel-caption d-none d-md-block">
               <h5>Praia</h5>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, excepturi. Deleniti eius voluptatibus, quasi ducimus, delectus provident eaque adipisci omnis iusto impedit dolorum! Hic dolorem commodi excepturi veritatis, aut enim!
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Dolore, excepturi. Deleniti eius voluptatibus, quasi ducimus,
+                delectus provident eaque adipisci omnis iusto impedit dolorum!
+                Hic dolorem commodi excepturi veritatis, aut enim!
               </p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="img/caroussel/rural.jpg" class="d-block w-100" alt="..." />
+            <img
+              src="img/caroussel/rural.jpg"
+              class="d-block w-100"
+              alt="Casa de campo em ambiente rural"
+            />
             <div class="carousel-caption d-none d-md-block">
               <h5>Rural</h5>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quae maiores cupiditate culpa eius voluptatibus dolores reiciendis asperiores praesentium, fuga sequi ipsam dolorem eveniet repellat voluptate, quisquam laboriosam ducimus voluptatem.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+                quae maiores cupiditate culpa eius voluptatibus dolores
+                reiciendis asperiores praesentium, fuga sequi ipsam dolorem
+                eveniet repellat voluptate, quisquam laboriosam ducimus
+                voluptatem.
               </p>
             </div>
           </div>
@@ -139,44 +165,66 @@
 
     <section class="container-fluid bg-light text-center p-2">
       <h2>Conheça os nossos pacotes</h2>
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
-        dignissimos minima animi cum. Cum, praesentium ipsam dolorum beatae eum
-        quisquam esse, dolor quibusdam sequi itaque error doloribus, atque
-        placeat corrupti. Lorem ipsum dolor sit amet consectetur adipisicing
-        elit. Explicabo nobis sed est. Incidunt culpa tempora corporis eius
-        dolor consectetur hic, atque, accusamus voluptate, vero libero minima
-        repudiandae cum illo nihil.
-      </p>
+      <p>Lorem ipsum dolor sit.</p>
 
-      <div class="row">
-        <figure class="col text-center">
+      <div class="card-group">
+        <div class="card">
           <img
             src="img/gramado.jpg"
-            alt="Gramado"
-            width="300px"
-            height="300px"
+            class="card-img-top"
+            alt="Pórtico da cidade de Gramado"
           />
-          <figcaption>Gramado</figcaption>
-        </figure>
-        <figure class="col text-center">
-          <img
-            src="img/riodejaneiro.png"
-            alt="Rio de Janeiro"
-            width="300px"
-            height="300px"
-          />
-          <figcaption>Rio de Janeiro</figcaption>
-        </figure>
-        <figure class="col text-center">
+          <div class="card-body bg-warning">
+            <h5 class="card-title">Gramado</h5>
+            <p class="card-subtitle text-muted fs-2 fw-bold">R$5.000,00</p>
+            <p class="card-text">
+              This card has supporting text below as a natural lead-in to
+              additional content.
+            </p>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Reservar</a>
+            <p class="card-text">
+              <small class="text-body-secondary">Em até 24x</small>
+            </p>
+          </div>
+        </div>
+        <div class="card">
           <img
             src="img/porto-seguro.jpg"
-            alt="Porto Seguro"
-            width="300px"
-            height="300px"
+            class="card-img-top"
+            alt="Praia de Porto Seguro"
           />
-          <figcaption>Porto Seguro</figcaption>
-        </figure>
+          <div class="card-body bg-warning">
+            <h5 class="card-title">Porto Seguro</h5>
+            <p class="card-subtitle text-muted fs-2 fw-bold">R$4.000,00</p>
+            <p class="card-text">
+              This card has supporting text below as a natural lead-in to
+              additional content.
+            </p>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Reservar</a>
+            <p class="card-text">
+              <small class="text-body-secondary">Em até 24x</small>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="img/riodejaneiro.png"
+            class="card-img-top"
+            alt="Cristo Redentor no Rio de Janeiro"
+          />
+          <div class="card-body bg-warning">
+            <h5 class="card-title">Rio de Janeiro</h5>
+            <p class="card-subtitle text-muted fs-2 fw-bold">R$2.000,00</p>
+            <p class="card-text">
+              This card has supporting text below as a natural lead-in to
+              additional content.
+            </p>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Reservar</a>
+            <p class="card-text">
+              <small class="text-body-secondary">Em até 24x</small>
+            </p>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -299,14 +347,32 @@
       </form>
     </section>
 
+    <footer class="container-fluid bg-warning p-2 text-center">
+      <p>Desenvolvido por Weslley Bezerra</p>
+    </footer>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 text-center text-primary" id="exampleModalLabel">Suas compras</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Produto adicionado ao carrinho!
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Continuar comprando</button>
+            <a href="checkout.html" type="button" class="btn btn-success">Finalizar a compra</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
     ></script>
-
-    <footer class="container-fluid bg-warning p-2 text-center">
-      <p>Desenvolvido por Weslley Bezerra</p>
-    </footer>
   </body>
 </html>
