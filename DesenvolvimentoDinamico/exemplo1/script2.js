@@ -1,4 +1,4 @@
-let rlSync = require('readline-sync')
-let nome = rlSync.question("Qual o seu nome? ")
+var readlineSync = require('readline-sync');
+let nome = readlineSync.question("Qual o seu nome? ");
 
-console.log(`Olá, ${nome}`)
+console.log(`Olá, ${nome}`);
